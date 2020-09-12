@@ -1,0 +1,282 @@
+@media (min-width: 1025px){
+
+
+	html{
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat;
+	}
+
+	body{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+
+	/* class for mobile menu bar*/
+	.open {
+	display:none;
+	float: left;
+	font-size: 50px;
+	}
+
+
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+	display: none;
+
+}
+
+
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+	/*To be shown when the website go to mobile view */
+	.wrapper{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 20px;
+	}
+
+  /*Search bar at the mobile view*/
+	.search{
+	float: right;
+	font-size: 50px;
+	}
+
+	.fa fa-search{
+	font-size: 50px;
+	float: right;
+	display: block;
+	}
+
+
+
+
+	h1{
+	color: black; 
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Comic Sans MS;
+	line-height:400%;
+}
+
+
+	h2{
+	font-size: 1.25em;
+	margin: 0;
+	padding: 16px;
+	font-family: sans-serif;
+
+	}
+
+
+	h3{
+	font-size: 1em;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	font-family: sans-serif;
+	}
+
+
+	p{
+	margin: 0.8em 0;
+	padding: 0;
+	font-family: sans-serif;
+	line-height: 1.5;
+	text-align: left;
+
+	}
+
+	/* mobile navigation*/
+	.nav  {
+	display: none;
+	}
+
+	/*mobile search*/
+	.search{
+	display:none
+	}
+
+	/*destop navigation*/
+	nav {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  left: 0;
+	  height: 48px;
+		background-color: black;
+	  font-size: 18px;
+	  display: block;
+	  margin-left: 270px;
+	}
+
+
+	/* Contents inside the menu*/
+	.menu-container {
+	  position: relative;
+	  margin: 0 auto;
+	  margin-top: -5px;
+	  padding: 0 10%;
+		max-width: 1280px;
+	}
+
+	/**/
+	.menu-container ul {
+	  list-style: none;
+	  margin-left: -50px;
+	}
+
+	/**/
+	.menu-container ul li {
+	  display: inline-block;
+	  text-align: center;
+	  margin-right: 5%;
+	}
+
+	/**/
+	.menu-container ul li:last-child {
+	  margin-right: 0;
+	}
+
+	/**/
+	.menu-container ul li a {
+	  display: inline-block;
+	  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
+	  text-decoration: none;
+	  color: #fff;
+	  font-weight: 100;
+	  font-size: 16px;
+	  float: left;
+	}
+
+   /**/
+	.menu-container ul li a:hover {
+	  color: #969696;
+	}
+
+   /*Back-ground behind logo and nav*/
+	.page_header
+	{
+		background-color: #fff;
+	}
+
+
+	/*display image for search*/
+	.img{
+		width: 20px;
+		height: 20px;
+		margin-bottom: -5px;
+	}
+
+	/*display of the cards*/
+	.card{
+	  display: inline-block;
+	  margin: 16px;
+	  width: 380px;
+	  height: 650px;
+	  min-height: 280px;
+	  font-size: 16px;
+	  text-align: left;
+	  background-color: #ffffff;
+	  border-radius: 2px;
+	  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+	  border-radius: 5px;
+	  margin: 24px;
+	  transition: height 1s;
+	}
+
+	/**/
+	.card:hover{
+	  box-shadow: 0 8px 16px 0 #5e6063;
+	  border-bottom: 1px solid black;
+	}
+
+	/**/
+	.card .heading{
+	  position: relative;
+	  height: 80px;
+	  color: White;
+	  background-color: #382a54;
+	  border-top-right-radius: 5px;
+	  border-top-left-radius:5px;
+	}
+
+
+	/**/
+	.card .content {
+	  font-size: 0.875em;
+	  padding: 16px;
+	  font-family: sans-serif;
+	  height: 30%;
+	  transition: height 1s;
+	}
+
+	/**/
+	.card .button {
+	  border: solid;
+	  background-color: white;
+	  padding: 8px ;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #A349E4;
+	  margin: 8px;
+	  cursor: pointer;
+	  font-family: sans-serif;
+
+	}
+
+	/**/
+	.card .button:hover {
+	  background-color: #30872C;
+	  color: white;
+	  border-radius: 2px;
+
+	}
+
+	/*images inside the cards*/
+	img {
+	  max-width: 100%;
+	}
+
+	/*sub-link css**/
+	.sub_contents{
+		margin-left: 15%;
+		margin-right: 15%;
+		text-align: left;
+
+		}
+
+	.sub_contents h2{
+		background-color: white;
+
+	}
+
+	.example{
+		border:solid;
+		margin-bottom: 5%;
+
+	}
+	/*end of sublink for the CSS*/
+
+
+}
+

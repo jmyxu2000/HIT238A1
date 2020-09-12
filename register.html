@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+<head>
+<meta charest="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/regStyle.css" type="text/css">
+<title>Registration Form</title>
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to the World Leading Guitar Application</h1>
+	</header>
+
+	<div class="form">
+		<form id="contactform"> 
+			<p class="contact"><label for="fname" id="name">Name</label></p> 
+			<input id="fname" name="fname" placeholder="First name" required="required" type="text" class="nameblock"> <br>
+			<input id="lname" name="lname" placeholder="Last name" required="required" type="text" class="nameblock">
+			
+			<p class="contact"><label for="Address">Adress</label></p> 
+			<input id="ad1" name="ad1" placeholder="Address line 1" required="required" type="text"> <br>
+			<input id="ad2" name="ad2" placeholder="Address line 2" required="required" type="text"> <br>
+			<input id="suburb" name="suburb" placeholder="Suburb" required="required" type="text">
+			<select class="select-menu" id="state" name="state">
+				<option selected disabled>State</option>
+				<option value="01">NSW</option>
+				<option value="02">QLD</option>
+				<option value="03">SA</option>
+				<option value="04">TAS</option>
+				<option value="05">VIC</option>
+				<option value="06">WA</option>
+				<option value="07">ACT</option>
+				<option value="08">NT</option>
+			</select>
+			<input id="zipcode" name="zipcode" placeholder="zipcode" required="required" type="text">
+			
+			<p class="contact"><label for="email">Email</label></p> 
+			<input id="email" name="email" placeholder="example@domain.com" required="required" type="email"> 
+			
+			<p class="contact"><label for="Mobile">Mobile</label></p> 
+			<input id="mobile" name="mobile" placeholder="(04) 1234 5678" required="required" type="tel"> 
+			
+			<p class="contact"><label for="DOB">Birthday</label></p> 
+			<select class="select-menu" id="birthday" name="birthday">
+				<option selected disabled>Day</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+            </select>
+			<select class="select-menu" id="birthmonth" name="birthmonth">
+				<option selected disabled>Month</option>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03" >March</option>
+				<option value="04">April</option>
+				<option value="05">May</option>
+				<option value="06">June</option>
+				<option value="07">July</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">October</option>
+				<option value="11">November</option>
+				<option value="12">December</option>
+            </select>
+			<input id="birthyear" name="year" placeholder="Year" required="required" type="text"><br>
+
+			<p class="contact"><label for="bankacc" id="bankacc">Bank Infomation</label></p> 
+			<input id="name" name="name" placeholder="Name" required="required" type="text" class="nameblock"> <br>
+			<input id="acc" name="acc" placeholder="acc" required="required" type="text" class="acc">
+			<input id="bsb" name="bsb" placeholder="bsb" required="required" type="text" class="bsb">
+		</form> 
+		
+		<button class="myButton"  type="submit"><a href="index.html">Sign Me Up!</a></button>
+		
+		<p class="notice">By clicking Sign up, means you agree with our terms and conditions.</p> 
+		
+	</div>
+	<br>
+	
+</body>
+</html>
