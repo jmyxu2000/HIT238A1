@@ -1,5 +1,14 @@
 @media (min-width: 1025px){
 
+	.form{
+		width: 70%;
+		background: #FFFFFF;
+		border-radius: 10px;
+		overflow: hidden;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
 
 	html{
 	background-image: url(../images/bg.jpg);

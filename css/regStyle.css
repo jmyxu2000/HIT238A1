@@ -14,14 +14,6 @@ h1{
 	line-height:400%;
 }
 
-.form{
-	width: 70%;
-    background: #FFFFFF;
-    border-radius: 10px;
-    overflow: hidden;
-	margin-left: 15%;
-	margin-right: 15%;
-}
 
 .contact{
 	font-family: Palatino Linotype;
@@ -95,3 +87,4 @@ input[type="text"],input[type="email"],input[type="tel"]
 	position: relative;
 	top: 1px;
 }
+
