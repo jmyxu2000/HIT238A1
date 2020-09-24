@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-	color: #FFFFFF; 
+	color: white; 
 	font-size: 48px;
 	font-weight: bold;
 	text-align: center;
@@ -15,12 +15,7 @@ h1{
 }
 
 
-.contact{
-	font-family: Palatino Linotype;
-	font-size: 24px;
-	font-weight: bold;
-	margin-left: 15%
-}
+
 
 input[type="text"],input[type="email"],input[type="tel"]
 {
@@ -88,3 +83,23 @@ input[type="text"],input[type="email"],input[type="tel"]
 	top: 1px;
 }
 
+.contact {
+	color: white;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	margin-left: 15%;
+
+}
+
+.notice {
+	color: gray;
+}
+
+.form{
+	background-color: #211545;
+	border-radius: 30px;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height:50px;
+}
