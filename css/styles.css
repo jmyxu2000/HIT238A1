@@ -313,5 +313,19 @@ html{
 	/*end of sublink for the CSS*/
 
 
+table{
+	width:70%;
+    
 }
+th
+{
+    height:150px;
+	color:white;
+	font-size:1.5em;
+	padding-top:5px;
+	padding-bottom:4px;
+}
+
+
+
 
