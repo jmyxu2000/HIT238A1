@@ -1,14 +1,6 @@
 @media (min-width: 1025px){
 
-nav{
-	display:none;
-	}
-.wrapper{
-		height: 100%;
-		width: 100%;
-		text-align:center;
-		
-		}
+
 .form{
 	background-color: #211545;
 	border-radius: 30px;
@@ -30,57 +22,36 @@ html{
 		width: 100%;
 	}
 
-
+.open {
+		display:none;
+		}
 	
-
-
-
-/* Style the navigation menu */
-#myMenu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-	display: none;
-
-}
-
-/*To be shown when the website go to mobile view */
 .wrapper{
-	height: 100%;
-	width: 100%;
-	text-align:center;
-	padding-top: 20px;
+		height: 100%;
+		width: 100%;
+		text-align:center;
+		padding-top: 20px;
+		}
 	
-	}
-
 .open{
 		float: left;
 		font-size: 50px;
-		margin-left: 40px;
-		margin-top: 20px;
 		}
 
-/* Style the navigation links */
-#myMenu li a {
-  padding: 12px;
-  text-decoration: none;
-  color: black;
-  display: block;
-}
+.search{
+			float: right;
+			font-size: 50px;
+			}
+		
+.fa fa-search{
+			font-size: 50px;
+			float: right;
+			display: block;
+			}
 
-#myMenu li a:hover {
-  background-color: #eee;
-}
-	/*To be shown when the website go to mobile view */
-	.wrapper{
-	height: 100%;
-	width: 100%;
-	text-align:center;
-	padding-top: 20px;
-	
-	}
 
-  
+
+
 
 
 
@@ -125,6 +96,10 @@ html{
 		display:none;
 		}
 	
+	.search{
+			display:none
+			}
+
 	nav {
 	  position: absolute;
 	  top: 0;
@@ -370,17 +345,7 @@ th
 
 
 @media (min-width: 481px) and (max-width: 1024px){
-
-	.wrapper{
-		height: 100%;
-		width: 100%;
-		text-align:center;
-		
-		}
 	
-	nav{
-		display:none;
-		}
 
 	.form{
 		background-color: #211545;
@@ -403,55 +368,37 @@ th
 			width: 100%;
 		}
 	
-	
+	nav{
+			display:none;
+			}
+
+	.wrapper
+			{
+			height: 100%;
+			width: 100%;
+			text-align:center;
+			}
 		
-	
-	
-	
-	/* Style the navigation menu */
-	#myMenu {
-	  list-style-type: none;
-	  padding: 0;
-	  margin: 0;
-		display: none;
-	
-	}
-	
-	/*To be shown when the website go to mobile view */
-	.wrapper{
-	height: 100%;
-	width: 100%;
-	text-align:center;
-	padding-top: 20px;
-	
-	}
-	
 	.open{
-		float: left;
-		font-size: 50px;
-		margin-left: 40px;
-		margin-top: 20px;
-		}
-	
-	/* Style the navigation links */
-	#myMenu li a {
-	  padding: 12px;
-	  text-decoration: none;
-	  color: black;
-	  display: block;
-	}
-	
-	#myMenu li a:hover {
-	  background-color: #eee;
-	}
-		/*To be shown when the website go to mobile view */
-		.wrapper{
-		height: 100%;
-		width: 100%;
-		text-align:center;
-		padding-top: 20px;
+			float: left;
+			font-size: 50px;
+			margin-left: 40px;
+			margin-top: 20px;
+			}
 		
-		}
+	.search{
+				float: right;
+				font-size: 50px;
+				margin-right: 40px;
+				margin-top: 20px;
+				}
+
+	.fa fa-search
+				{
+				font-size: 50px;
+				float: right;
+				display: block;
+				}
 	
 	  
 	
@@ -494,12 +441,9 @@ th
 	
 		}
 		
-		.nav{
-			display:none;
-			}
-
+		
 		/*Navigation after clicking on the menu bar doesnt work unless clicked*/
-		nav
+		.nav
 		{
 		width: 0;
 		text-align: left;
@@ -508,7 +452,7 @@ th
 		height: 60vh;
 		z-index: 1;
 		position: fixed;
-		background-color: rgba(34, 65, 93, 0.9);
+		background-color:black;
 		transition: 0.5s;
 		display: block;
 	
@@ -538,65 +482,31 @@ th
 			border: solid;
 		}
 	
-	
-	
+		.menu_buttons
+			{
+
+			float: right;
+			background-color:  inherit;
+			color: white;
+			text-decoration: none;
+			border:none;
+			display: block;
+			font-size: 35px;
+			padding: 0 2 3 0;;
+			transition: 0.3s;
+			}
+		.dropdown-content{
+				display:none;
+			  }
+			  
 		.show {display:block;}
 
-		.menu-container {
-		  position: relative;
-		  margin: 0 auto;
-		  margin-top: -5px;
-		  padding: 0 10%;
-			max-width: 1280px;
+	
 		}
 	
+
 		
-		.menu-container ul {
-		  list-style: none;
-		  margin-left: -50px;
-		}
 	
-		/**/
-		.menu-container ul li {
-		  display: inline-block;
-		  text-align: center;
-		  margin-right: 5%;
-		}
-	
-		/**/
-		.menu-container ul li:last-child {
-		  margin-right: 0;
-		}
-	
-		/**/
-		.menu-container ul li a {
-		  display: inline-block;
-		  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
-		  text-decoration: none;
-		  color: #fff;
-		  font-weight: 100;
-		  font-size: 16px;
-		  float: left;
-		}
-	
-	   /**/
-		.menu-container ul li a:hover {
-		  color: #969696;
-		}
-	
-	   /*Back-ground behind logo and nav*/
-		.page_header
-		{
-			background-color: #fff;
-		}
-	
-	
-		/*display image for search*/
-		.img{
-			width: 20px;
-			height: 20px;
-			margin-bottom: -5px;
-		}
 	
 		/*display of the cards*/
 		.card{
@@ -670,7 +580,26 @@ th
 		img {
 		  max-width: 100%;
 		}
-	
+		
+		.extra {
+		  display: none;
+		  position:relative;
+		  animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
+		  }
+	  
+		  p:hover .extra {
+			display: inline-block;
+		  }
+	  
+		  .hide{
+		  font-style: italic;
+		  text-decoration: underline;
+		  }
+	  
+		  p:hover .hide {
+			display: none;
+		  }
+
 		/*sub-link css**/
 		.sub_contents{
 			margin-left: 15%;
@@ -757,7 +686,7 @@ th
 		padding-bottom:4px;
 	}
 	
-	}
+	
 	
 
 
@@ -769,14 +698,6 @@ th
 
 	@media (max-width: 480px){
 
-
-		.wrapper{
-			height: 100%;
-			width: 100%;
-			text-align:center;
-			
-			}
-
 		.form{
 			background-color: #211545;
 			border-radius: 30px;
@@ -786,9 +707,7 @@ th
 			height:1100px;
 		}
 		
-		nav{
-			display:none;
-			}
+		
 
 		html{
 			background-image: url(../images/bg.jpg);
@@ -806,14 +725,9 @@ th
 		
 		
 		
-		/* Style the navigation menu */
-		#myMenu {
-		  list-style-type: none;
-		  padding: 0;
-		  margin: 0;
-			display: none;
-		
-		}
+		nav{
+				display:none;
+				}
 
 		.wrapper
 			{
@@ -830,41 +744,28 @@ th
 			margin-top: 20px;
 			}
 		
-		
-		
-		/* Style the navigation links */
-		#myMenu li a {
-		  padding: 12px;
-		  text-decoration: none;
-		  color: black;
-		  display: block;
-		}
-		
-		#myMenu li a:hover {
-		  background-color: #eee;
-		}
-		/*To be shown when the website go to mobile view */
-			.wrapper{
-			height: 100%;
-			width: 100%;
-			text-align:center;
-			padding-top: 20px;
+		.search{
+				float: right;
+				font-size: 50px;
+				margin-right: 20px;
+				margin-top: 20px;
+				}
 			
-
-			}
+		.fa fa-search
+				{
+				font-size: 50px;
+				float: right;
+				display: block;
+				}
 		
-		  
-		
-		
-		
-			h1{
+		h1{
 			color: black; 
 			font-size: 48px;
 			font-weight: bold;
 			text-align: center;
 			font-family: Comic Sans MS;
 			line-height:400%;
-		}
+			}
 		
 		
 			h2{
@@ -898,7 +799,7 @@ th
 			
 	
 			/*Navigation after clicking on the menu bar doesnt work unless clicked*/
-			nav
+			.nav
 			{
 			width: 0;
 			text-align: left;
@@ -907,7 +808,7 @@ th
 			height: 60vh;
 			z-index: 1;
 			position: fixed;
-			background-color: rgba(34, 65, 93, 0.9);
+			background-color:black;
 			transition: 0.5s;
 			display: block;
 		
@@ -938,72 +839,13 @@ th
 			}
 		
 		
-		
+			.dropdown-content{
+				display:none;
+			  }
+			  
 			.show {display:block;}
 	
-			.menu-container {
-			  position: relative;
-			  margin: 0 auto;
-			  margin-top: -5px;
-			  padding: 0 10%;
-				max-width: 1280px;
-			}
 
-			.menu-container {
-			  position: relative;
-			  margin: 0 auto;
-			  margin-top: -5px;
-			  padding: 0 10%;
-				max-width: 1280px;
-			}
-		
-			
-			.menu-container ul {
-			  list-style: none;
-			  margin-left: -50px;
-			}
-		
-			/**/
-			.menu-container ul li {
-			  display: inline-block;
-			  text-align: center;
-			  margin-right: 5%;
-			}
-		
-			/**/
-			.menu-container ul li:last-child {
-			  margin-right: 0;
-			}
-		
-			/**/
-			.menu-container ul li a {
-			  display: inline-block;
-			  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
-			  text-decoration: none;
-			  color: #fff;
-			  font-weight: 100;
-			  font-size: 16px;
-			  float: left;
-			}
-		
-		   /**/
-			.menu-container ul li a:hover {
-			  color: #969696;
-			}
-		
-		   /*Back-ground behind logo and nav*/
-			.page_header
-			{
-				background-color: #fff;
-			}
-		
-		
-			/*display image for search*/
-			.img{
-				width: 20px;
-				height: 20px;
-				margin-bottom: -5px;
-			}
 		
 			/*display of the cards*/
 			.card{
