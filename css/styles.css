@@ -442,19 +442,46 @@ th
 		text-align: left;
 	
 		}
-	
 		
-		nav {
-		  position: absolute;
-		  top: 0;
-		  right: 0;
-		  left: 0;
-		  height: 48px;
-			background-color: black;
-		  font-size: 18px;
-		  display: block;
-		  margin-left: 270px;
-		}
+		.nav
+	{
+	width: 0;
+	text-align: left;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	height: 60vh;
+	z-index: 1;
+	position: fixed;
+	background-color: rgba(34, 65, 93, 0.9);
+	transition: 0.5s;
+	display: block;
+
+	}
+
+	.nav a {
+	clear: right;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-size: 35px;
+	padding: .5em;
+	transition: 0.3s;
+	}
+
+	/*Close buton on the navigation inside the menu bar*/
+	.close
+	{
+	float: right;
+	}
+
+	.nav a:not(:first-child):hover{
+	  background-color: orange;
+	}
+
+	.nav a:not(:first-child) {/* To separe the X from the rest */
+		border: solid;
+	}
+
 	
 	
 		
@@ -782,22 +809,49 @@ th
 			text-align: left;
 		
 			}
-		
 			
-			nav {
-			  position: absolute;
-			  top: 0;
-			  right: 0;
-			  left: 0;
-			  height: 48px;
-				background-color: black;
-			  font-size: 18px;
-			  display: block;
-			  margin-left: 270px;
-			}
-		
-		
-			
+			.nav
+	{
+	width: 0;
+	text-align: left;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	height: 60vh;
+	z-index: 1;
+	position: fixed;
+	background-color: rgba(34, 65, 93, 0.9);
+	transition: 0.5s;
+	display: block;
+	}
+
+	.nav a {
+	clear: right;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-size: 30px;
+	padding: 0.5em;
+	transition: 0.3s;
+	}
+
+	.close
+	{
+	float: right;
+	}
+
+	.nav a:not(:first-child):hover{
+	  background-color: orange;
+	}
+
+	.nav a:not(:first-child) /* To separe the X from the rest */
+	{
+		border: solid;
+	}
+
+	
+
+	.show {display:block;}
+
 			.menu-container {
 			  position: relative;
 			  margin: 0 auto;
