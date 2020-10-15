@@ -1,6 +1,13 @@
 @media (min-width: 1025px){
 
-
+nav{
+	display:none;
+	}
+.wrapper{
+		height: 100%;
+		width: 100%;
+		text-align:center;
+		}
 .form{
 	background-color: #211545;
 	border-radius: 30px;
@@ -36,7 +43,20 @@ html{
 
 }
 
+/*To be shown when the website go to mobile view */
+.wrapper{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 20px;
+	}
 
+.open{
+		float: left;
+		font-size: 50px;
+		margin-left: 40px;
+		margin-top: 20px;
+		}
 
 /* Style the navigation links */
 #myMenu li a {
@@ -98,6 +118,9 @@ html{
 
 	}
 
+	.nav{
+		display:none;
+		}
 	
 	nav {
 	  position: absolute;
@@ -345,6 +368,15 @@ th
 
 @media (min-width: 481px) and (max-width: 1024px){
 
+	.wrapper{
+		height: 100%;
+		width: 100%;
+		text-align:center;
+		}
+	
+	nav{
+		display:none;
+		}
 
 	.form{
 		background-color: #211545;
@@ -381,7 +413,20 @@ th
 	
 	}
 	
+	/*To be shown when the website go to mobile view */
+	.wrapper{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 20px;
+	}
 	
+	.open{
+		float: left;
+		font-size: 50px;
+		margin-left: 40px;
+		margin-top: 20px;
+		}
 	
 	/* Style the navigation links */
 	#myMenu li a {
@@ -443,49 +488,54 @@ th
 	
 		}
 		
-		.nav
-	{
-	width: 0;
-	text-align: left;
-	font-family: sans-serif;
-	overflow-x: hidden;
-	height: 60vh;
-	z-index: 1;
-	position: fixed;
-	background-color: black;
-	transition: 0.5s;
-	display: block;
+		.nav{
+			display:none;
+			}
 
-	}
-
-	.nav a {
-	clear: right;
-	color: white;
-	text-decoration: none;
-	display: block;
-	font-size: 35px;
-	padding: .5em;
-	transition: 0.3s;
-	background-color: black;
-	}
-
-	/*Close buton on the navigation inside the menu bar*/
-	.close
-	{
-	float: right;
-	}
-
-	.nav a:not(:first-child):hover{
-	  background-color: orange;
-	}
-
-	.nav a:not(:first-child) {/* To separe the X from the rest */
-		border: solid;
-	}
-
+		/*Navigation after clicking on the menu bar doesnt work unless clicked*/
+		nav
+		{
+		width: 0;
+		text-align: left;
+		font-family: sans-serif;
+		overflow-x: hidden;
+		height: 60vh;
+		z-index: 1;
+		position: fixed;
+		background-color: rgba(34, 65, 93, 0.9);
+		transition: 0.5s;
+		display: block;
+	
+		}
+	
+		.nav a {
+		clear: right;
+		color: white;
+		text-decoration: none;
+		display: block;
+		font-size: 35px;
+		padding: .5em;
+		transition: 0.3s;
+		}
+	
+		/*Close buton on the navigation inside the menu bar*/
+		.close
+		{
+		float: right;
+		}
+	
+		.nav a:not(:first-child):hover{
+		  background-color: orange;
+		}
+	
+		.nav a:not(:first-child) {/* To separe the X from the rest */
+			border: solid;
+		}
 	
 	
-		
+	
+		.show {display:block;}
+
 		.menu-container {
 		  position: relative;
 		  margin: 0 auto;
@@ -714,6 +764,12 @@ th
 	@media (max-width: 480px){
 
 
+		.wrapper{
+			height: 100%;
+			width: 100%;
+			text-align:center;
+			}
+
 		.form{
 			background-color: #211545;
 			border-radius: 30px;
@@ -723,7 +779,10 @@ th
 			height:1100px;
 		}
 		
-		
+		nav{
+			display:none;
+			}
+
 		html{
 			background-image: url(../images/bg.jpg);
 			background-repeat: repeat;
@@ -748,6 +807,20 @@ th
 			display: none;
 		
 		}
+
+		.wrapper
+			{
+			height: 100%;
+			width: 100%;
+			text-align:center;
+			}
+			
+		.open{
+			float: left;
+			font-size: 50px;
+			margin-left: 40px;
+			margin-top: 20px;
+			}
 		
 		
 		
@@ -762,7 +835,7 @@ th
 		#myMenu li a:hover {
 		  background-color: #eee;
 		}
-			/*To be shown when the website go to mobile view */
+		/*To be shown when the website go to mobile view */
 			.wrapper{
 			height: 100%;
 			width: 100%;
@@ -811,48 +884,60 @@ th
 		
 			}
 			
-	.nav
-	{
-	width: 0;
-	text-align: left;
-	font-family: sans-serif;
-	overflow-x: hidden;
-	height: 60vh;
-	z-index: 1;
-	position: fixed;
-	background-color: black;
-	transition: 0.5s;
-	display: block;
-	}
-
-	.nav a {
-	clear: right;
-	color: white;
-	text-decoration: none;
-	display: block;
-	font-size: 30px;
-	padding: 0.5em;
-	transition: 0.3s;
-	background-color: black;
-	}
-
-	.close
-	{
-	float: right;
-	}
-
-	.nav a:not(:first-child):hover{
-	  background-color: orange;
-	}
-
-	.nav a:not(:first-child) /* To separe the X from the rest */
-	{
-		border: solid;
-	}
-
-
-
-	.show {display:block;}
+	
+			
+	
+			/*Navigation after clicking on the menu bar doesnt work unless clicked*/
+			nav
+			{
+			width: 0;
+			text-align: left;
+			font-family: sans-serif;
+			overflow-x: hidden;
+			height: 60vh;
+			z-index: 1;
+			position: fixed;
+			background-color: rgba(34, 65, 93, 0.9);
+			transition: 0.5s;
+			display: block;
+		
+			}
+		
+			.nav a {
+			clear: right;
+			color: white;
+			text-decoration: none;
+			display: block;
+			font-size: 35px;
+			padding: .5em;
+			transition: 0.3s;
+			}
+		
+			/*Close buton on the navigation inside the menu bar*/
+			.close
+			{
+			float: right;
+			}
+		
+			.nav a:not(:first-child):hover{
+			  background-color: orange;
+			}
+		
+			.nav a:not(:first-child) {/* To separe the X from the rest */
+				border: solid;
+			}
+		
+		
+		
+			.show {display:block;}
+	
+			.menu-container {
+			  position: relative;
+			  margin: 0 auto;
+			  margin-top: -5px;
+			  padding: 0 10%;
+				max-width: 1280px;
+			}
 
 			.menu-container {
 			  position: relative;
