@@ -7,7 +7,7 @@ nav{
 		height: 100%;
 		width: 100%;
 		text-align:center;
-		background-color: black;
+		
 		}
 .form{
 	background-color: #211545;
@@ -50,7 +50,7 @@ html{
 	width: 100%;
 	text-align:center;
 	padding-top: 20px;
-	background-color: black;
+	
 	}
 
 .open{
@@ -77,7 +77,7 @@ html{
 	width: 100%;
 	text-align:center;
 	padding-top: 20px;
-	background-color: black;
+	
 	}
 
   
@@ -375,7 +375,7 @@ th
 		height: 100%;
 		width: 100%;
 		text-align:center;
-		background-color: black;
+		
 		}
 	
 	nav{
@@ -423,7 +423,7 @@ th
 	width: 100%;
 	text-align:center;
 	padding-top: 20px;
-	background-color: black;
+	
 	}
 	
 	.open{
@@ -450,7 +450,7 @@ th
 		width: 100%;
 		text-align:center;
 		padding-top: 20px;
-		background-color: black;
+		
 		}
 	
 	  
@@ -774,7 +774,7 @@ th
 			height: 100%;
 			width: 100%;
 			text-align:center;
-			background-color: black;
+			
 			}
 
 		.form{
@@ -820,7 +820,7 @@ th
 			height: 100%;
 			width: 100%;
 			text-align:center;
-			background-color: black;
+			
 			}
 			
 		.open{
@@ -849,7 +849,8 @@ th
 			width: 100%;
 			text-align:center;
 			padding-top: 20px;
-			background-color: black;
+			
+
 			}
 		
 		  
