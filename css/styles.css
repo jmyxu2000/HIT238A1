@@ -452,7 +452,7 @@ th
 	height: 60vh;
 	z-index: 1;
 	position: fixed;
-	background-color: rgba(34, 65, 93, 0.9);
+	background-color: black;
 	transition: 0.5s;
 	display: block;
 
@@ -819,7 +819,7 @@ th
 	height: 60vh;
 	z-index: 1;
 	position: fixed;
-	background-color: rgba(34, 65, 93, 0.9);
+	background-color: black;
 	transition: 0.5s;
 	display: block;
 	}
@@ -848,7 +848,7 @@ th
 		border: solid;
 	}
 
-	
+
 
 	.show {display:block;}
 
