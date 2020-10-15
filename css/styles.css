@@ -466,6 +466,7 @@ th
 	font-size: 35px;
 	padding: .5em;
 	transition: 0.3s;
+	background-color: black;
 	}
 
 	/*Close buton on the navigation inside the menu bar*/
@@ -810,7 +811,7 @@ th
 		
 			}
 			
-			.nav
+	.nav
 	{
 	width: 0;
 	text-align: left;
@@ -832,6 +833,7 @@ th
 	font-size: 30px;
 	padding: 0.5em;
 	transition: 0.3s;
+	background-color: black;
 	}
 
 	.close
