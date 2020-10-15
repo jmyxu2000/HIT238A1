@@ -328,7 +328,693 @@ th
 	padding-bottom:4px;
 }
 
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 1024px){
+
+
+	.form{
+		background-color: #211545;
+		border-radius: 30px;
+		margin-left: 15%;
+		margin-right: 15%;
+		line-height:80px;
+		height:1100px;
+	}
+	
+	
+	html{
+		background-image: url(../images/bg.jpg);
+		background-repeat: repeat;
+		}
+	
+	.body{
+			padding: 0;
+			margin: 0;
+			width: 100%;
+		}
+	
+	
+		
+	
+	
+	
+	/* Style the navigation menu */
+	#myMenu {
+	  list-style-type: none;
+	  padding: 0;
+	  margin: 0;
+		display: none;
+	
+	}
+	
+	
+	
+	/* Style the navigation links */
+	#myMenu li a {
+	  padding: 12px;
+	  text-decoration: none;
+	  color: black;
+	  display: block;
+	}
+	
+	#myMenu li a:hover {
+	  background-color: #eee;
+	}
+		/*To be shown when the website go to mobile view */
+		.wrapper{
+		height: 100%;
+		width: 100%;
+		text-align:center;
+		padding-top: 20px;
+		}
+	
+	  
+	
+	
+	
+		h1{
+		color: black; 
+		font-size: 48px;
+		font-weight: bold;
+		text-align: center;
+		font-family: Comic Sans MS;
+		line-height:400%;
+	}
+	
+	
+		h2{
+		font-size: 1.25em;
+		margin: 0;
+		padding: 16px;
+		font-family: sans-serif;
+	
+		}
+	
+	
+		h3{
+		font-size: 1em;
+		margin: 0;
+		padding-left: 16px;
+		padding-bottom: 16px;
+		font-family: sans-serif;
+		}
+	
+	
+		p{
+		margin: 0.8em 0;
+		padding: 0;
+		font-family: sans-serif;
+		line-height: 1.5;
+		text-align: left;
+	
+		}
+	
+		
+		nav {
+		  position: absolute;
+		  top: 0;
+		  right: 0;
+		  left: 0;
+		  height: 48px;
+			background-color: black;
+		  font-size: 18px;
+		  display: block;
+		  margin-left: 270px;
+		}
+	
+	
+		
+		.menu-container {
+		  position: relative;
+		  margin: 0 auto;
+		  margin-top: -5px;
+		  padding: 0 10%;
+			max-width: 1280px;
+		}
+	
+		
+		.menu-container ul {
+		  list-style: none;
+		  margin-left: -50px;
+		}
+	
+		/**/
+		.menu-container ul li {
+		  display: inline-block;
+		  text-align: center;
+		  margin-right: 5%;
+		}
+	
+		/**/
+		.menu-container ul li:last-child {
+		  margin-right: 0;
+		}
+	
+		/**/
+		.menu-container ul li a {
+		  display: inline-block;
+		  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
+		  text-decoration: none;
+		  color: #fff;
+		  font-weight: 100;
+		  font-size: 16px;
+		  float: left;
+		}
+	
+	   /**/
+		.menu-container ul li a:hover {
+		  color: #969696;
+		}
+	
+	   /*Back-ground behind logo and nav*/
+		.page_header
+		{
+			background-color: #fff;
+		}
+	
+	
+		/*display image for search*/
+		.img{
+			width: 20px;
+			height: 20px;
+			margin-bottom: -5px;
+		}
+	
+		/*display of the cards*/
+		.card{
+		  display: inline-block;
+		  margin: 16px;
+		  width: 400px;
+		  height: 650px;
+		  min-height: 280px;
+		  font-size: 16px;
+		  text-align: left;
+		  background-color: #ffffff;
+		  border-radius: 2px;
+		  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+		  border-radius: 5px;
+		  margin: 24px;
+		  vertical-align: middle
+		  
+		}
+	
+		/**/
+		.card:hover{
+		  box-shadow: 0 8px 16px 0 #5e6063;
+		  border-bottom: 1px solid black;
+		}
+	
+		/**/
+		.card .heading{
+		  position: relative;
+		  height: 80px;
+		  color: White;
+		  background-color: #382a54;
+		  border-top-right-radius: 5px;
+		  border-top-left-radius:5px;
+		}
+	
+	
+		/**/
+		.card .content {
+		  font-size: 0.875em;
+		  padding: 16px;
+		  font-family: sans-serif;
+		  height: 30%;
+		}
+	
+		/**/
+		.card .button {
+		  border: solid;
+		  background-color: white;
+		  padding: 8px ;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  font-weight: bold;
+		  color: #A349E4;
+		  margin: 8px;
+		  cursor: pointer;
+		  font-family: sans-serif;
+		  vertical-align: middle
+	
+		}
+	
+		/**/
+		.card .button:hover {
+		  background-color: #30872C;
+		  color: white;
+		  border-radius: 2px;
+	
+		}
+	
+		/*images inside the cards*/
+		img {
+		  max-width: 100%;
+		}
+	
+		/*sub-link css**/
+		.sub_contents{
+			margin-left: 15%;
+			margin-right: 15%;
+			text-align: left;
+	
+			}
+	
+		.sub_contents h2{
+			background-color: white;
+	
+		}
+	
+		.example{
+			border:solid;
+			margin-bottom: 5%;
+	
+		}
+		.contact {
+			color: white;
+			font-weight: bold;
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			margin-left: 15%;
+		
+		}
+	
+		input[type="text"]
+	{
+		font-family: cursive;
+		font-size: 16px;
+		margin-right:10%;
+		line-height: 1.5;
+		padding:10px 10px;
+		width: 70%;
+		border: none;
+		border-bottom: 1px solid;
+		vertical-align: baseline
+	}
+	
+	.button {
+		background-color: #3ab25a;
+		text-align: center;
+		border-radius: 10px;
+		border: 1px solid #18ab29;
+		display: inline-block;
+		cursor: pointer;
+		color: #ffffff;
+		font-family: Comic Sans MS;
+		font-weight: bold;
+		font-size: 18px;
+		padding: 10px 20px;
+		text-decoration: none;
+		text-shadow: 0px 1px 0px #2f6627;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top:5%;
+		margin-bottom:0;
+	}
+	
+	.select-menu{
+		font-family: cursive;
+		font-size: 16px;
+		width:90px;
+		margin-right: 75%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: none;
+		border-bottom: 1px solid;
+	}
+		/*end of sublink for the CSS*/
+	
+	
+	table{
+		width:70%;
+		
+	}
+	th
+	{
+		height:150px;
+		color:white;
+		font-size:1.5em;
+		padding-top:5px;
+		padding-bottom:4px;
+	}
+	
+	}
+	
+
+
+
+
+
+
+
+
+	@media (max-width: 480px){
+
+
+		.form{
+			background-color: #211545;
+			border-radius: 30px;
+			margin-left: 15%;
+			margin-right: 15%;
+			line-height:80px;
+			height:1100px;
+		}
+		
+		
+		html{
+			background-image: url(../images/bg.jpg);
+			background-repeat: repeat;
+			}
+		
+		.body{
+				padding: 0;
+				margin: 0;
+				width: 100%;
+			}
+		
+		
+			
+		
+		
+		
+		/* Style the navigation menu */
+		#myMenu {
+		  list-style-type: none;
+		  padding: 0;
+		  margin: 0;
+			display: none;
+		
+		}
+		
+		
+		
+		/* Style the navigation links */
+		#myMenu li a {
+		  padding: 12px;
+		  text-decoration: none;
+		  color: black;
+		  display: block;
+		}
+		
+		#myMenu li a:hover {
+		  background-color: #eee;
+		}
+			/*To be shown when the website go to mobile view */
+			.wrapper{
+			height: 100%;
+			width: 100%;
+			text-align:center;
+			padding-top: 20px;
+			}
+		
+		  
+		
+		
+		
+			h1{
+			color: black; 
+			font-size: 48px;
+			font-weight: bold;
+			text-align: center;
+			font-family: Comic Sans MS;
+			line-height:400%;
+		}
+		
+		
+			h2{
+			font-size: 1.25em;
+			margin: 0;
+			padding: 16px;
+			font-family: sans-serif;
+		
+			}
+		
+		
+			h3{
+			font-size: 1em;
+			margin: 0;
+			padding-left: 16px;
+			padding-bottom: 16px;
+			font-family: sans-serif;
+			}
+		
+		
+			p{
+			margin: 0.8em 0;
+			padding: 0;
+			font-family: sans-serif;
+			line-height: 1.5;
+			text-align: left;
+		
+			}
+		
+			
+			nav {
+			  position: absolute;
+			  top: 0;
+			  right: 0;
+			  left: 0;
+			  height: 48px;
+				background-color: black;
+			  font-size: 18px;
+			  display: block;
+			  margin-left: 270px;
+			}
+		
+		
+			
+			.menu-container {
+			  position: relative;
+			  margin: 0 auto;
+			  margin-top: -5px;
+			  padding: 0 10%;
+				max-width: 1280px;
+			}
+		
+			
+			.menu-container ul {
+			  list-style: none;
+			  margin-left: -50px;
+			}
+		
+			/**/
+			.menu-container ul li {
+			  display: inline-block;
+			  text-align: center;
+			  margin-right: 5%;
+			}
+		
+			/**/
+			.menu-container ul li:last-child {
+			  margin-right: 0;
+			}
+		
+			/**/
+			.menu-container ul li a {
+			  display: inline-block;
+			  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
+			  text-decoration: none;
+			  color: #fff;
+			  font-weight: 100;
+			  font-size: 16px;
+			  float: left;
+			}
+		
+		   /**/
+			.menu-container ul li a:hover {
+			  color: #969696;
+			}
+		
+		   /*Back-ground behind logo and nav*/
+			.page_header
+			{
+				background-color: #fff;
+			}
+		
+		
+			/*display image for search*/
+			.img{
+				width: 20px;
+				height: 20px;
+				margin-bottom: -5px;
+			}
+		
+			/*display of the cards*/
+			.card{
+			  display: inline-block;
+			  margin: 16px;
+			  width: 400px;
+			  height: 650px;
+			  min-height: 280px;
+			  font-size: 16px;
+			  text-align: left;
+			  background-color: #ffffff;
+			  border-radius: 2px;
+			  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+			  border-radius: 5px;
+			  margin: 24px;
+			  vertical-align: middle
+			  
+			}
+		
+			/**/
+			.card:hover{
+			  box-shadow: 0 8px 16px 0 #5e6063;
+			  border-bottom: 1px solid black;
+			}
+		
+			/**/
+			.card .heading{
+			  position: relative;
+			  height: 80px;
+			  color: White;
+			  background-color: #382a54;
+			  border-top-right-radius: 5px;
+			  border-top-left-radius:5px;
+			}
+		
+		
+			/**/
+			.card .content {
+			  font-size: 0.875em;
+			  padding: 16px;
+			  font-family: sans-serif;
+			  height: 30%;
+			}
+		
+			/**/
+			.card .button {
+			  border: solid;
+			  background-color: white;
+			  padding: 8px ;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 16px;
+			  font-weight: bold;
+			  color: #A349E4;
+			  margin: 8px;
+			  cursor: pointer;
+			  font-family: sans-serif;
+			  vertical-align: middle
+		
+			}
+		
+			/**/
+			.card .button:hover {
+			  background-color: #30872C;
+			  color: white;
+			  border-radius: 2px;
+		
+			}
+		
+			/*images inside the cards*/
+			img {
+			  max-width: 100%;
+			}
+		
+			/*sub-link css**/
+			.sub_contents{
+				margin-left: 15%;
+				margin-right: 15%;
+				text-align: left;
+		
+				}
+		
+			.sub_contents h2{
+				background-color: white;
+		
+			}
+		
+			.example{
+				border:solid;
+				margin-bottom: 5%;
+		
+			}
+			.contact {
+				color: white;
+				font-weight: bold;
+				font-family: Comic Sans MS;
+				font-size: 30px;
+				margin-left: 15%;
+			
+			}
+		
+			input[type="text"]
+		{
+			font-family: cursive;
+			font-size: 16px;
+			margin-right:10%;
+			line-height: 1.5;
+			padding:10px 10px;
+			width: 70%;
+			border: none;
+			border-bottom: 1px solid;
+			vertical-align: baseline
+		}
+		
+		.button {
+			background-color: #3ab25a;
+			text-align: center;
+			border-radius: 10px;
+			border: 1px solid #18ab29;
+			display: inline-block;
+			cursor: pointer;
+			color: #ffffff;
+			font-family: Comic Sans MS;
+			font-weight: bold;
+			font-size: 18px;
+			padding: 10px 20px;
+			text-decoration: none;
+			text-shadow: 0px 1px 0px #2f6627;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-top:5%;
+			margin-bottom:0;
+		}
+		
+		.select-menu{
+			font-family: cursive;
+			font-size: 16px;
+			width:90px;
+			margin-right: 75%;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border: none;
+			border-bottom: 1px solid;
+		}
+			/*end of sublink for the CSS*/
+		
+		
+		table{
+			width:70%;
+			
+		}
+		th
+		{
+			height:150px;
+			color:white;
+			font-size:1.5em;
+			padding-top:5px;
+			padding-bottom:4px;
+		}
+		
+		}
+		
+	
+	
+	
