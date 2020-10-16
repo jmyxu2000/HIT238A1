@@ -73,40 +73,51 @@
 		<div class = "form">
 
 			<form id="form">
-					<table>
-						<tr>
-							<th>Title</th>
-							<th>Publisher</th>
-							<th>Date</th>
-						</tr>
-						<tr>
-							<th>How to play C chord </th>
-							<th>Jimmy</th>
-							<th>21/05/2020</th>
-							<th><div><a href="#" class="button">Join</a></div></th>
-						</tr>
-						<tr>
-							<th>I have launch a new song</th>
-							<th>Echo</th>
-							<th>08/12/2019</th>
-							<th><div><a href="#" class="button">Join</a></div></th>
-						</tr>
-						<tr>
-							<th>Band needs guitarist</th>
-							<th>Emily</th>
-							<th>11/08/2020</th>
-							<th><div><a href="#" class="button">Join</a></div></th>
-						</tr>
-					</table>
-					<div><a href="idea.html" class="button">Share your idea in our Community</a></div>
 				
-		
+					<fieldset>
+						<legend>Create your idea</legend>
+						<input id="inpIdea" type="text" placeholder="idea">
+						<input id="inpName" type="text" placeholder="name"><br>
+						<button type="button" id="inpBtn">submit</button>
+					</fieldset>
+					<fieldset>
+						<legend>Disscussion Board</legend>
+						<div id="output"></div>
+					</fieldset>
+					
+
+
 			</form>
 		</div>
 
 		
 
 		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			const inpIdea = document.getElementById("inpIdea");
+			const inpName = document.getElementById("inpName");
+			const inpBtn = document.getElementById("inpBtn");
+			const output = document.getElementById("output");
+
+			inpBtn.onclick = function(){
+				const key = inpIdea.value;
+				const value = inpName.value;
+				 
+				 if(key && value){
+					 localStorage.setItem(key, value);
+					 location.reload();
+				 }
+
+			};	
+
+			for(let i =0; i< localStorage.length; i++){
+				const key =localStorage.key(i);
+				const value = localStorage.getItem(key);
+				output.innerHTML += `Topic: ${key}<br> By: ${value}<br>`;
+				
+			};
+
+		</script>
 
 	</div>
 
